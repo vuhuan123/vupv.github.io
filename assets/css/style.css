@@ -1,0 +1,751 @@
+/* Resset css */
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.price {
+    font-weight : 600;
+
+}
+
+
+
+/* header css */
+
+#header {
+    height: 46px;
+    background-color: #29203B;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    
+   
+}
+
+
+#nav li {
+    display: inline-block;
+    
+}
+#nav li a {
+    color: #fff;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 20px;
+    display: inline-block;
+}
+#nav li:hover a {
+    color: black;
+    background-color: darkgrey;
+}
+
+#header .logo {
+    background: url('/assets/imgs/logo/master-chef-logo-design-vector-600w-1868307016.webp') top center / cover no-repeat;
+    width: 50px;
+    height: 46px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 60px;
+
+}
+
+#slider {
+    z-index: 1;
+    position: relative;
+    margin-top: 46px;
+    padding-top: 50%;
+    background: url('/assets/imgs/slider/pexels-pixabay-260922.jpg') top center / cover no-repeat;
+}
+#slider .title-text {
+    
+    position: absolute;
+    bottom: 49%;
+    left: 29%;
+    color: #fff;
+    font-size: 27px;
+     animation: lights 5s 750ms linear infinite;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+
+
+
+#slider .text-content2{
+    text-align: center;
+}
+
+@keyframes lights {
+
+  0% {
+    color: hsl(0, 74%, 71%);
+    text-shadow:
+      0 0 1em hsla(320, 100%, 50%, 0.2),
+      0 0 0.125em hsla(320, 100%, 60%, 0.3),
+      -1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
+      1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+  }
+  
+  30% { 
+    color: hsl(59, 70%, 49%);
+    text-shadow:
+      0 0 1em hsla(320, 100%, 50%, 0.5),
+      0 0 0.125em hsla(320, 100%, 60%, 0.5),
+      -0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
+      0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+  }
+  
+  40% { 
+    color: hsl(230, 100%, 95%);
+    text-shadow:
+      0 0 1em hsla(320, 100%, 50%, 0.5),
+      0 0 0.125em hsla(320, 100%, 90%, 0.5),
+      -0.25em -0.125em 0.125em hsla(40, 100%, 60%, 0.2),
+      0.25em 0.125em 0.125em hsla(200, 100%, 60%, 0.4);
+  }
+  
+  70% {
+    color: hsl(230, 80%, 90%);
+    text-shadow:
+      0 0 1em hsla(320, 100%, 50%, 0.5),
+      0 0 0.125em hsla(320, 100%, 60%, 0.5),
+      0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
+      -0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+  }
+  
+  100% {
+    color: hsl(230, 40%, 80%);
+    text-shadow:
+      0 0 1em hsla(320, 100%, 50%, 0.2),
+      0 0 0.125em hsla(320, 100%, 60%, 0.3),
+      1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
+      -1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+  }
+  
+}
+
+
+
+#introduce .Title {
+    text-align: center;
+}
+
+
+
+#content {
+    background-color: black;
+    position: relative;
+}
+
+.title {
+    text-align: center;
+    padding-top: 65px;
+}
+
+.title-main {
+    color: #fff;
+    height: 120px;
+    padding-top: 50px;
+
+}
+
+.subtitle {
+    color: #fff;
+ 
+}
+
+/* Dishs */
+
+.dishs {
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+
+
+.dish1 {
+    background-color: #fff;
+    margin-top: 100px;
+    margin-left:50px;
+    margin-right: 50px;
+    display: flex;
+    width: auto;
+    height: 350px;
+
+
+
+} 
+
+.dish1 .photo {
+    background: url('/assets/imgs/dishs/istockphoto-510685112-612x612.jpg') top center / cover no-repeat;
+    width: 300px;
+    height: 300px;
+    border: solid #fff;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 22px;
+}
+
+.dish1 .introduce{
+    flex: 1;
+    margin-left: 100px;
+    margin-top: 30px;
+   
+
+}
+.dish1 .introduce h3{
+    text-align: center;
+}
+
+.dish1 .introduce p{
+
+    color: #29203B;
+    margin-right: 150px;
+    margin-left: 50px;
+    margin-top: 10px;
+    line-height: 30px;
+
+}
+
+.dish2 {
+    background-color: #fff;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    width: auto;
+    height: 350px;
+
+}
+
+.dish2 .photo {
+    background: url('/assets/imgs/dishs/dish2/nghe-thuat-trinh-bay-va-chup-anh-mon-an\ 5.jpg') top center / cover no-repeat;
+    width: 300px;
+    height: 300px;
+    border: solid #fff;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 23px;
+   
+
+}
+
+.dish2 .introduce {
+    flex: 1;
+    margin-left: 100px;
+    margin-top: 30px;
+
+}
+
+.dish2 .introduce h3 {
+    text-align: center;
+}
+
+
+.dish2 .introduce p {
+    color: #29203B;
+    margin-right: 150px;
+    margin-left: 50px;
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+
+.dish3 {
+    background-color: #fff;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    width: auto;
+    height: 350px;
+
+}
+
+.dish3 .photo {
+    background: url('/assets/imgs/dishs/dish3/DC-CLUB-1-copy-scaled.jpg') top center / cover no-repeat;
+    width: 300px;
+    height: 300px;
+    border: solid #fff;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 23px;
+   
+
+}
+
+.dish3 .introduce {
+    flex: 1;
+    margin-left: 100px;
+    margin-top: 30px;
+
+}
+
+.dish3 .introduce h3 {
+    text-align: center;
+}
+
+
+.dish3 .introduce p {
+    color: #29203B;
+    margin-right: 150px;
+    margin-left: 50px;
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+.dish4 {
+    background-color: #fff;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    width: auto;
+    height: 350px;
+
+}
+
+.dish4 .photo {
+    background: url('/assets/imgs/dishs/dish4/5f7f3dc784183855fde5a89c_dich-vu-chup-anh-mon-an.jpg') top center / cover no-repeat;
+    width: 300px;
+    height: 300px;
+    border: solid #fff;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 23px;
+   
+
+}
+
+.dish4 .introduce {
+    flex: 1;
+    margin-left: 100px;
+    margin-top: 30px;
+
+}
+
+.dish4 .introduce h3 {
+    text-align: center;
+}
+
+
+.dish4 .introduce p {
+    color: #29203B;
+    margin-right: 150px;
+    margin-left: 50px;
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+.dish5 {
+    background-color: #fff;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    width: auto;
+    height: 350px;
+
+}
+
+.dish5 .photo {
+    background: url('/assets/imgs/dishs/dish5/xto-pho-viet-nam.jpg.pagespeed.ic.1VKS0GbWpT.webp') top center / cover no-repeat;
+    width: 300px;
+    height: 300px;
+    border: solid #fff;
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-top: 23px;
+   
+
+}
+
+.dish5 .introduce {
+    flex: 1;
+    margin-left: 100px;
+    margin-top: 30px;
+
+}
+
+.dish5 .introduce h3 {
+    text-align: center;
+}
+
+
+.dish5 .introduce p {
+    color: #29203B;
+    margin-right: 150px;
+    margin-left: 50px;
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+/* Drink */
+
+.drinkList__drink-water  {
+    width: 70px;
+    text-align: center;
+}
+
+.drinkList {
+
+}
+
+.drinkList__title {
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+   
+}
+.drinkList__category-drink {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.drinkList__category-drink :hover {
+    opacity: 0.5;
+}
+
+.drinkList__drink-beer {
+    margin-left: 20px;
+  
+}
+
+
+.drinkList__drink-noancol {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.drinkList__drink-ancol {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+
+}
+
+.drinkList__drink-img1 {
+    margin-left: 50px;
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    background: url('/assets/imgs/Dink/drink3.jpg') top center / cover no-repeat ;
+    border-radius: 10px;
+
+}
+.drinkList__drink-img2 {
+
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    background: url('/assets/imgs/Dink/coca.jpg') top center / cover no-repeat ;
+    border-radius: 10px;
+
+
+}
+.drinkList__drink-img3 {    
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    background: url('/assets/imgs/Dink/ảnh3.jpg') top center / cover no-repeat ;
+    border-radius: 10px;
+
+}
+.drinkList__drink-img4 {
+    margin-right: 50px;
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    background: url('/assets/imgs/Dink/nucloc.jfif') top center / cover no-repeat ;
+    border-radius: 10px;
+
+
+}
+/* Dink Beer and wine */
+
+.drinkList__drink-img5 {
+    margin-right: 50px;
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    background: url('/assets/imgs/Dink/hanoken.jpg') top center / cover no-repeat ;
+    border-radius: 10px;
+
+
+}
+
+.drinkList__drink-imgv {
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    background: url('/assets/imgs/Dink/rượuvang.jpg') top center / cover no-repeat ;
+    border-radius: 10px;
+
+
+}
+
+.drinkList__drink-imgs {
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    background: url('/assets/imgs/Dink/sochu.jpg') top center / cover no-repeat ;
+    border-radius: 10px;
+
+
+}
+
+
+.drinkList__drink-imgh {
+    margin-left: 50px;
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    background: url('/assets/imgs/Dink/hhh.jfif') top center / cover no-repeat ;
+    border-radius: 10px;
+
+
+}
+
+
+.drinkList__drink-text1 {
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 130px;
+    line-height: 1.5;
+}
+
+.drinkList__drink-text2 {
+    color: #fff;
+    margin-top: 30px;
+    line-height: 1.5;
+    margin-left: 110px;
+
+}
+.drinkList__drink-text3 {
+    color: #fff;
+    margin-top: 30px;
+    line-height: 1.5;
+    margin-left: 110px;
+
+
+}
+.drinkList__drink-text4 {
+    color: #fff;
+    margin-top: 30px;
+    line-height: 1.5;
+    margin-left: 110px;
+
+}
+
+.List-1 {
+    display: none;
+}
+
+.List-1.active {
+    display: block;
+
+
+}
+.List-2 {
+    display: none;
+
+}
+.List-2.active {
+    display: block;
+
+
+}
+
+.drinkList__drink-water.active {
+    padding-bottom:5px;
+    border-bottom: 5px solid #fff;
+}
+
+.drinkList__drink-beer.active{
+    border-bottom: 5px solid #fff;
+    padding-bottom: 5px;
+
+
+}
+
+
+
+
+/* Contact */
+
+.contact{
+    height: 700px;
+    width: auto;
+    background-color: #000;
+    color: #fff;
+    padding-top: 100px;
+
+}
+
+.contact__title{
+    text-align: center;
+}
+
+.contact__content{
+    margin-top: 50px;
+    margin-left: 70px;
+    line-height: 50px;
+    color: black;
+    font-weight: 500;
+    margin-right: 20px;
+    
+}
+
+
+
+
+.contact1 {
+    display: flex;
+    margin-top: 50px;
+    background-color: #fff;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+
+/* footer */
+
+.footer{
+    width: auto;
+    height: 350px;
+    background-color:#29203B;
+    display: flex;;
+
+}
+
+.footer__box-1
+{
+    margin-left: 50px;
+    width: 600px;
+    height: 300px;
+    margin-right: 70px;
+    margin-top: 50px;
+
+}
+
+.footer__box-3
+{
+    width: 270px;
+    height: 300px;
+
+    margin-left: 70px;
+    margin-top: 50px;
+    margin-right: 50px;
+    
+}
+.footer__box-4
+{
+    margin-right: 50px;
+    width: 300px;
+    height: 300px;
+
+    margin-top: 50px;
+}
+
+.heading-footer1 {
+  
+   font-size: 20px;
+   margin-top: 10px;
+   color: #fff;
+
+    
+}
+
+.content-footer1 {
+    margin-top: 30px;
+    color: #fff;
+    line-height: 30px;
+  
+}
+
+.content-icon {
+    margin-top: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-size: large;
+}
+.content-icon i {
+ padding-right: 15px;
+
+}
+.content-icon i:hover {
+  color: #8d7474;
+   
+}
+
+.heading-footer3 {
+    color: #fff;
+    margin-bottom: 35px;
+}
+
+.content-footer3 ul {
+    color: #fff;
+    list-style: none;
+}
+.link-footer a{
+    text-decoration: none;
+    color: #fff;
+    
+
+}
+
+.heading-footer3 {
+
+    font-size: 20px;
+    margin-top: 10px; 
+ }
+
+ .link-footer {
+    margin-bottom: 10px;
+ }
+
+
+ .link-footer a:hover{
+
+    color: #8d7474;
+    
+
+}
+
+.heading-footer4 {
+  
+    font-size: 20px;
+    margin-top: 10px;
+    color: #fff;
+ 
+     
+ }
+
+ .content-footer4 {
+    margin-top: 30px;
+    color: #fff;
+    line-height: 30px;
+  
+}
+
+
+
+
